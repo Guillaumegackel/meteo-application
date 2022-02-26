@@ -108,3 +108,26 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+@media (max-width: 900px){
+  .app {
+    width:60%;
+    height: 80vh;
+  }
+.search-box .search-bar{
+  font-size: 17px;
+}
+
+}
+
+@media (max-width: 800px){
+  .app {
+    width:80%;
+    height: 80vh;
+  }
+
+  .search-box .search-bar{
+    font-size: 17px;
+  }
+
+}
